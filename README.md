@@ -1,6 +1,6 @@
 # HERITACT Project Repository
 
-![HERITACT Logo](https://drive.google.com/file/d/1MOdzjHO1EFpJM4DfEuqAh-h6BMyIAuiU/view?usp=sharing)
+![HERITACT Logo](https://drive.google.com/uc?export=view&id=1MOdzjHO1EFpJM4DfEuqAh-h6BMyIAuiU)
 
 Welcome to the HERITACT project repository! This repository serves as a central hub for all the open-source resources, tools, and contributions related to the HERITACT project.
 
