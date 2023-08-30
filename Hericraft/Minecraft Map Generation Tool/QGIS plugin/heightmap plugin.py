@@ -13,7 +13,7 @@ class HeightmapPlugin:
 
     def initGui(self):
         # Define your icon path here
-        icon_path = 'icons/icon.png'
+        icon_path = 'icons/heritact.png'
 
         self.action = QAction(QIcon(icon_path), 'Convert to Heightmap', self.iface.mainWindow())
         self.action.triggered.connect(self.convert_to_heightmap)
