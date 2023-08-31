@@ -1,34 +1,18 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Hericraft Back-up Solution
-
 # ## Dependencies
 
 # ### These code lines have to be executed inside your python powershell
 
-# In[ ]:
-
-
 pip install Pillow pymclevel
-#https://github.com/mcedit/pymclevel
-
 
 # ## The code
 
 # # Image Processing
-
-# In[ ]:
-
 
 # Step 1: Import necessary libraries
 from PIL import Image
 import pymclevel
 import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
-
-
-# In[4]:
 
 
 from PIL import Image
@@ -48,9 +32,6 @@ def calculate_coordinates(x, y, geotransform):
 
     return latitude, longitude
     print(f"Pixel ({x}, {y}) corresponds to Latitude: {latitude}, Longitude: {longitude}")
-
-
-# In[5]:
 
 
 def get_openstreetmap_category(self, x, y, raster_layer):
@@ -114,9 +95,6 @@ def get_openstreetmap_category(self, x, y, raster_layer):
         return 'Other'
 
 
-# In[6]:
-
-
 def get_category_color(category):
     global category_colors
     
@@ -129,9 +107,6 @@ def get_category_color(category):
 
 # Define a dictionary to store category colors
 category_colors = {}
-
-
-# In[7]:
 
 
 from PIL import Image
@@ -166,24 +141,12 @@ def convert_to_heightmap(input_raster_path, output_image_path):
     heightmap.save(output_image_path, "TIFF")
 
 
-# In[ ]:
-
-
 input_raster_path = input('input raster path')
 output_image_path = input('output map path')
 convert_to_heightmap(input_raster_path, output_image_path)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-# Step 4: Analyze Image & Create Minecraft Map
+############################################################################################################################################################
+# Step 4: Analyze Image & Create Minecraft Map (work in progress part)
 level = pymclevel.MCInfdevOldLevel()
 level.createFlatWorld(groundMaterial=pymclevel.alphaMaterials.Grass)
 
