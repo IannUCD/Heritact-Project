@@ -1,12 +1,4 @@
-# ## Dependencies
-
-# ### These code lines have to be executed inside your python powershell
-
 pip install Pillow pymclevel
-
-# ## The code
-
-# # Image Processing
 
 # Step 1: Import necessary libraries
 from PIL import Image
@@ -175,9 +167,6 @@ for z in range(height):
         else:  # Unknown area
             for y in range(0, 5):  # Mark the unknown areas with red wool
                 level.setBlockAt(x, y, z, pymclevel.alphaMaterials.RedWool.ID)
-
-
-# In[ ]:
 
 
 # Step 5: Save the Minecraft World
