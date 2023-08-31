@@ -1,3 +1,4 @@
+pip install rasterio
 import rasterio
 import requests
 import xml.etree.ElementTree as ET
