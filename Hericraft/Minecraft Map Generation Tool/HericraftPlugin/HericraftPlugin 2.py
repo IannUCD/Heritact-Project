@@ -1,3 +1,12 @@
+pip install rasterio
+import rasterio
+import requests
+import xml.etree.ElementTree as ET
+from qgis.gui import QgsMapToolEmitPoint
+from qgis.PyQt.QtGui import QIcon
+from qgis.PyQt.QtWidgets import QAction, QFileDialog
+from qgis.core import QgsRasterLayer, QgsProject
+from qgis.utils import iface
 from qgis.PyQt.QtCore import QObject
 from qgis.PyQt.QtGui import QAction
 
