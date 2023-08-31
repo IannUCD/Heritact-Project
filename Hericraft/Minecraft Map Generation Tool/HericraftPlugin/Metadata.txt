@@ -1,8 +1,8 @@
-name: Heightmap Plugin
+name: HericraftPlugin
 description: Convert raster files to heightmaps with OpenStreetMap data.
 version: 1.0
 qgisMinimumVersion: 3.0
-author: Your Name
+author: Iann Chanony - UCD
 email: your@email.com
 repository: https://github.com/yourusername/heightmap-plugin
 tags: GIS, heightmap, OpenStreetMap
