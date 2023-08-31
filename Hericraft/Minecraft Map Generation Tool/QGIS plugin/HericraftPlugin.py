@@ -7,7 +7,7 @@ from qgis.PyQt.QtWidgets import QAction, QFileDialog
 from qgis.core import QgsRasterLayer, QgsProject
 from qgis.utils import iface
 
-class HeightmapPlugin:
+class HericraftPlugin:
     def __init__(self, iface):
         self.iface = iface
 
