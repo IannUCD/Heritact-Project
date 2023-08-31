@@ -13,7 +13,7 @@ class HericraftPlugin:
 
     def initGui(self):
         # Define your icon path here
-        icon_path = 'icons/heritact.png'
+        icon_path = 'icon.png'
 
         self.action = QAction(QIcon(icon_path), 'Convert to Heightmap', self.iface.mainWindow())
         self.action.triggered.connect(self.convert_to_heightmap)
